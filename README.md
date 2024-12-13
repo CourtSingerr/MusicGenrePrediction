@@ -31,3 +31,10 @@ A baseline CNN model
 
 7.	Evaluation & Results:
 	Final model accuracy of ~64.5% on the test set. Explored per-class performance, confusion matrices, and identified areas for improvement.
+
+#### Results
+- Best Feature Extraction Method: MFCC
+- Accuracy: ~64.5% test accuracy after tuning
+- Further Insights:
+- Certain genres (like pop, classical, and metal) are classified more accurately.
+- Genres like rock and disco remain challenging.
