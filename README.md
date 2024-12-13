@@ -2,7 +2,7 @@
 
 This repository contains the code and documentation for a deep learning project focused on classifying music genres from audio features using convolutional neural networks (CNNs). Using the GTZAN dataset as a benchmark, this project compares different audio feature representations (Log-Mel Spectrograms, MFCCs, and MFCCs with delta features) and employs hyperparameter tuning to improve model performance.
 
-###Overview
+### Overview
 - Dataset: GTZAN Genre Collection
 - Genres: 10 categories (Blues, Classical, Country, Disco, Hip-hop, Jazz, Metal, Pop, Reggae, Rock)
 - Goal: Predict the genre of a music track segment using a CNN trained on extracted audio features.
