@@ -30,11 +30,11 @@ A baseline CNN model
 	Used Keras Tuner (RandomSearch) to fine-tune hyperparameters (filters, dropout, learning rate) on the MFCC dataset, achieving improved accuracy.
 
 7.	Evaluation & Results:
-	Final model accuracy of ~64.5% on the test set. Explored per-class performance, confusion matrices, and identified areas for improvement.
+	Final model accuracy of ~66.5% on the test set. Explored per-class performance, confusion matrices, and identified areas for improvement.
 
 #### Results
 - Best Feature Extraction Method: MFCC
-- Accuracy: ~64.5% test accuracy after tuning
+- Accuracy: ~66.5% test accuracy after tuning
 - Further Insights:
 - Certain genres (like pop, classical, and metal) are classified more accurately.
 - Genres like rock and disco remain challenging.
