@@ -7,13 +7,13 @@ This repository contains the code and documentation for a deep learning project 
 - Genres: 10 categories (Blues, Classical, Country, Disco, Hip-hop, Jazz, Metal, Pop, Reggae, Rock)
 - Goal: Predict the genre of a music track segment using a CNN trained on extracted audio features.
 
-Key Steps
-	1.	Data Preprocessing & Segmentation:
-Split 30-second audio tracks into shorter segments (e.g., 6-second clips) to increase the number of training examples.
-	2.	Feature Extraction:
-	•	Log-Mel Spectrograms
-	•	MFCC (Mel-Frequency Cepstral Coefficients)
-	•	MFCC + Deltas
+#### Key Steps
+1.	Data Preprocessing & Segmentation:
+	Split 30-second audio tracks into shorter segments (e.g., 6-second clips) to increase the number of training examples.
+2.	Feature Extraction:
+	- Log-Mel Spectrograms
+	- MFCC (Mel-Frequency Cepstral Coefficients)
+	- MFCC + Deltas
 Normalize features and apply one-hot encoding for labels.
 	3.	Model Architecture:
 A baseline CNN model:
