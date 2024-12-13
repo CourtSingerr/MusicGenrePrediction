@@ -19,9 +19,9 @@ This repository contains the code and documentation for a deep learning project 
 
 3.   Model Architecture:
 	A baseline CNN model:
-	- 3 Convolutional blocks (Conv2D + BatchNorm + MaxPooling)
-	- Dense layers with dropout
-	- - Softmax output for 10-class classification
+		- 3 Convolutional blocks (Conv2D + BatchNorm + MaxPooling)
+		- Dense layers with dropout
+		- Softmax output for 10-class classification
   
 5.	Comparative Evaluation:
 	Trained the same baseline model on each feature representation to identify which performs best. MFCCs emerged as the strongest features.
